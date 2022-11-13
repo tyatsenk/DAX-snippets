@@ -3,3 +3,4 @@ TOTALMTD (
     [Sales],
     Dates[Date]
 )
+//Month to Date (MTD) is a period starting at the beginning of the current calendar month and ending at the current date. 
