@@ -1,0 +1,5 @@
+Sales MTD = 
+TOTALMTD (
+    [Sales],
+    Dates[Date]
+)
