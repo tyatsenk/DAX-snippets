@@ -1,0 +1,13 @@
+Sales PMTD = 
+CALCULATE (
+    'Key Measures'[Sales],
+    DATEADD (
+        FILTER (
+            DATESMTD ( Dates[Date] ),
+            Dates[Date]
+                < TODAY ()
+        ),
+        -1,
+        MONTH
+    )
+)
