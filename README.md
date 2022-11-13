@@ -1,1 +1,1 @@
-# DAX-snippets
+# DAX-snippets for Power Bi Reports
