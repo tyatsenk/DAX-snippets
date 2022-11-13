@@ -1,0 +1,9 @@
+Sales PM = 
+CALCULATE (
+    [Sales MTD],
+    PARALLELPERIOD (
+        Dates[Date],
+        -1,
+        MONTH
+    )
+)
